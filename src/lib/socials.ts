@@ -1,19 +1,8 @@
-import type { IconDefinition } from '@fortawesome/free-solid-svg-icons';
-import {
-    faFacebook,
-    faInstagram,
-    faTwitter,
-    faGithub,
-    faTwitch,
-    faDribbble,
-    faLinkedin,
-    faYoutube
-} from '@fortawesome/free-brands-svg-icons';
+// import type { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 
 interface Social {
     name: string;
     url: string;
-    icon: IconDefinition;
     bgColor: string;
     color: string;
 }
@@ -43,7 +32,6 @@ const socials: Social[] = [
     {
         name: 'Github',
         url: 'https://github.com/menneric84/',
-        icon: faGithub,
         bgColor: '#000000',
         color: '#ffffff'
     },
