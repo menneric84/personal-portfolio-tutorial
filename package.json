@@ -12,7 +12,6 @@
         "format": "prettier --write --plugin-search-dir=. ."
     },
     "devDependencies": {
-        "@fortawesome/free-brands-svg-icons": "^5.15.3",
         "@fortawesome/free-solid-svg-icons": "^5.15.3",
         "@sveltejs/adapter-netlify": "^1.0.0-next.25",
         "@sveltejs/kit": "1.0.0-next.133",
@@ -41,7 +40,6 @@
     },
     "type": "module",
     "dependencies": {
-        "canvas": "^2.8.0",
         "dayjs": "^1.10.6",
         "html-to-text": "^8.0.0",
         "marked": "^2.1.3",
